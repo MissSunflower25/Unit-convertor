@@ -1,0 +1,78 @@
+*, *::before,*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.35rem;
+    color:#5A537B;
+    margin:0;
+    padding: 0 0.5em;
+    background-color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#hero-container {
+background-color: #6943FF;
+color:#fff;
+}
+
+#hero-container, .hero.input,#output-container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn {
+    background-color: #fff;
+    margin:1.5em 0;
+    padding: 0.75em 1.75em;
+    border: none;
+    border-radius: 0.25em;
+    font-weight: bold;
+}
+#btn:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, .90)
+}
+
+
+#input {
+    border: #d7d8da solid 0.20em;
+    border-radius: 0.25em;
+    background-color: #6943FF;
+    width:35%;
+    text-align: center;
+    padding: 0.45em 0;
+    color:#fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#output-container {
+    background-color: #eff0f1;
+    
+}
+
+.output {
+    background-color: #fff;
+    color:#5A537B;
+    margin-top: 1.5em ;
+    width:95%;
+    text-align:center;
+}
+
+.outputFontWeight {
+    font-weight: bold;
+}
+
+.output.last {
+    margin-bottom:1.5em ;
+}
+
+/* output stylying */
+
+.border {
+    border-left: #5A537B solid 0.125em;
+    margin-right: 0.30em;
+}
